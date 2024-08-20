@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+	margin: 4px;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	background-image: url(../IMG/FondoMasCompost.png);
+	background-size: cover;
+}
+
+header img{
+	
+	width: 180px;
+	height: 150px;
+}
+
+.formulario{
+	width: 41%;
+    background: rgb(16, 161, 115,0.5);
+    position: absolute;
+    padding: 25px 30px;
+    top: 40%;
+    left: 25%;
+    display: flex;
+    border-radius: 20px;
+	flex-wrap: wrap;
+	content: space-between;
+}
+
+.input2{
+	width: 60%;
+}
+
+.btn-enviar{
+
+	background:#6D57A0 ;
+	color: #FFFFFF;
+	padding: 10px 40px;
+	font-size: 20px;
+	border-color: #B4B4B4;
+	border-radius: 8px;
+	cursor: pointer;
+
+}
+
+.btn-enviar:active{
+	transform: scale(1.05);
+}
+
+.form-link{
+	width: 100%;
+	text-align: center;
+	margin: 8px;
+
+}
+.form-link a{
+	text-decoration: none;
+	text-align: center;
+}
+
+h1{
+	top: 20%;
+	text-align: center;
+}

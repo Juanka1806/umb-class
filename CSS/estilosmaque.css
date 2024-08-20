@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+*{
+    margin: 1px;
+}
+body{
+  background-color: #FFFFFF;
+}
+/* encabezado*/
+header{
+    background-color: #264653;
+}
+header img{
+    width: 10%;
+    height:10%;
+}
+/*Menu de Navegacion*/
+
+nav ul{
+    list-style: none;
+    display: flex;
+    background-color: #CED4DA;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+}
+nav ul li a{
+    padding: 15px 90px;
+    text-decoration: none;
+    display: block;
+    color: rgb(88, 88, 88);
+}
+ nav ul li a:hover{
+     background-color: #DAF7A6;
+     color: #000000;
+     font-size: 18px;
+     font-weight: bold;
+ }
+
+ /* contenido main */
+/*flex: uno al lado del otro*/
+
+ main{
+     display: flex;
+     padding: 10px;
+ }
+
+ .main image{
+     width: 60%;
+     height: 400px;
+     background-image: url(../IMG/main_1.jpg);
+     background-size: 100% 100%;
+     border-radius: 20px;
+ }
+
+    .mainside{
+        width: 40%;
+        text-align: center;
+        padding: 70px 20px;
+    }
+
+    .mainside h1{
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+
+    .mainside p{
+        padding: 30px 0;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+
+ .boton:hover{
+     background-color: #487998;
+     color: #FFFFFF;
+     font-size: 18px;
+ }
+ .boton{
+    text-decoration: none;
+    background-color: #fefdff;
+    color: #474769;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Barlow Condensed', sans-serif;
+
+}
+/* titulo de seccion*/
+.titulo{
+    font-size: 30px;
+    font-family: ´Squad One´, cursive;
+    padding: 20px;
+    background-color: #CED4D4;
+}
+/* SECCIÓN Y ARTICULO */
+ section{
+     display: flex;
+ }
+ article{
+     width: 33.33%;
+     padding: 20px 30px;
+     border-right: 2px solid  #264653;
+ }
+
+ article h2{
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Barlow Condensed', sans-serif;
+ }
+
+ .arting img{
+    width: 50%;
+    height: auto;
+ }
+
+ .arting{
+     text-align: center;
+     padding: 15px;
+ }
+
+ .linkart{
+     text-align: right;
+ }
+
+ .linkart a{
+    text-decoration: none;
+    color: #264653;
+    background-color:#CED4D4 ;
+    padding: 10px 20px;
+    border-radius: 10px;
+ }
+
+ footer{
+     background-color: #CED4D4;
+     color: #264653;
+     text-align: center;
+     padding: 30px 0;
+     font-family: 'Barlow Condensed', sans-serif;
+     font-weight: bold;
+ }

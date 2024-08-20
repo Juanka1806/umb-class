@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+	font-family: 'Poppins', sans-serif;
+	margin: 10px
+}
+
+
+body{
+	background-color: #FFFFFF;
+
+}
+nav img{
+	width: 150px;
+	height: auto;
+}
+
+nav div ul li .dropdown{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+
+
+nav{
+	width: 100%;
+	height: auto;
+	display: flex;
+	background-color: #7FB8B2;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+nav ul{
+
+	list-style: none;
+	display: flex;
+    
+}
+
+nav ul li a{
+    padding: 15px 50px;
+    text-decoration: none;
+    display: block;
+    color: rgb(88, 88, 88);
+    
+}
+ nav ul li a:hover{
+     background-color: #98E5DD;
+     color: #000000;
+     font-size: 20px;
+     font-weight: bold;
+      
+      border-radius: 10px;
+ }
+
+header{
+    width: 100%;
+    height: 700px;
+    background-image: url(IMG/ImgBienvenidosMasCompost.jpg);
+    background-size: 100% 100%;
+}
+
+
+main{
+	background-color: #E4FFC7;
+	border-radius: 10px;
+}
+
+.MisVis{
+ display: flex;
+}
+
+
+ article{
+ 	width: 50%;
+
+ }
+
+.localidades{
+	font-size: 20px;
+}
+
+.bogota{
+	
+	display: flex
+
+}
+
+.recorrido{
+	text-align: center;
+}
+
+.eventos img {
+	display: flex;
+	width: 45%;
+	height: auto;
+	font-size: 20px;
+}
+
+section{
+	display: flex;
+}
+
+footer{
+	padding: 30px 30px;
+	width: 100%;
+	display: flex;
+	background-color: #669748;
+	text-align: right;
+	font-weight: bold;
+}
+
+.aboutus{
+	display: flex;
+}
+
+.aboutus iframe{
+	width: 50%;
+	height: auto;
+}

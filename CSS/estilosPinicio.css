@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url(../IMG/fondo.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed; /* Imagen de findo fija */
+    
+}
+
+/*
+.borde{
+    border: 1px solid #F4F3F3;
+}
+*/
+
+.titulo h1{
+    width: 100%;
+    height: 55%;
+    text-align: center;
+    padding: 10px;
+    background-color: #348AAE;
+    color: #0C4157
+
+}
+
+nav{
+    width: 100%;
+    height: 72px;
+    background: #B68277;
+}
+
+.logo{
+    width: 20%;
+    height: 100%;
+    float: left;
+    padding: 6px;
+    text-align: center;
+}
+
+.logo img{
+    width: 100%;
+    height: 60px;
+}
+
+.navegacion{
+    width: 65%;
+    height: 100%;
+    float: left;
+}
+
+nav ul{
+
+    list-style: none;
+    text-align: right;
+    
+
+}
+
+nav ul li{
+    font-family: 16px;
+    width: 150px;
+    
+}
+
+nav ul li :hover ul{
+    display: block;
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold; /*---*/
+    text-align: center;
+    padding: 20px 5px;
+}
+
+nav ul li a:hover{
+    background: #966257 ;
+}
+
+.ingreso{
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+
+nav .ingreso ul li{
+    width: 100%;
+}
+
+/* subniveles*/
+
+nav li ul{
+    position: absolute;
+    display: none;
+}
+
+/* > buscar subniveles*/
+
+nav .navegacion>ul>li{
+
+display: inline-block; /* para que los botones se vean uno debajo de otro*/
+}
+
+nav .ingreso li ul{
+    width: 15%;
+}
+
+header{
+    width: 100%;
+    height: 500px;
+    background-image: url(../IMG/FondoMasCompost.png);
+    background-size: 100% 100%;
+}
+
+.t-imagen{
+    color: #0288DA;
+    font-size: 60px;
+    text-align: center;
+    padding: 200px;
+    font-weight: bold;
+   
+}
+
+/* PORTAFOLIO
+Id se llaman con #*/
+
+main #portafolio{
+width: 100%;
+height: 600px;
+
+}
+
+.div-porta{
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.div-porta img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.div-porta h2{
+    margin-top: 20px;
+    color: #F4F3F3;
+}
+
+.div-porta p{
+padding: 15px;
+margin-top: 20px;
+text-align: justify;
+margin-bottom: 30px;
+}
+
+.linkart a{
+    text-decoration: none;
+    background: #0C4157;
+    color: #FFF;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+.linkart a:hover{
+    background-color: #F9934F;
+    color: #FFF;
+}
+
+section #quienes-somos{
+    width: 100%;
+    height: 600px;
+
+}
+
+.fila{
+    width: 100%;
+    height: 33.33%;
+}
+
+.col-ext{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.col-cent{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+section #CONTACTENOS{
+ width: 100%;
+ height: 600px;
+}
+
+.div-contactoform{
+    width: 50% ;
+    height: 100%;
+    float: left;
+    padding: 30px;
+}
+.div-contacto{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.div-arriba{
+width: 100%;
+height: 60%;
+padding: 20px;
+}
+
+.div-arriba iframe{
+    width:  100%;
+    height: 100%;
+    border: 0px;
+}
+
+.div-abajo{
+    width: 100%;
+    height:40%;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    color: #FFF;
+    padding: 20px 10px 20px 10px;
+}
+
+.icono{
+    width: 5%;
+    height: auto;
+    color: black;
+}
+
+/* Pie de página*/
+
+footer{
+    background-color: #0C4157;
+    color: #F4F3F3;
+    text-align: center;
+    padding: 30px 0px;
+    font-weight: bold;
+}
